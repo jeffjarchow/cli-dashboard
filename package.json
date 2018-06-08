@@ -1,0 +1,67 @@
+{
+  "_from": "github:jeffjarchow/cli-dashboard",
+  "_id": "cli-dashboard@1.1.1",
+  "_inBundle": false,
+  "_location": "/cli-dashboard",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "jeffjarchow/cli-dashboard",
+    "rawSpec": "jeffjarchow/cli-dashboard",
+    "saveSpec": "github:jeffjarchow/cli-dashboard",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "github:jeffjarchow/cli-dashboard#4bfe2e46270e67876a4310e0c3dcdb971418aa76",
+  "_spec": "jeffjarchow/cli-dashboard",
+  "_where": "C:\\Users\\jjarchow",
+  "author": {
+    "name": "Lennart Koopmann",
+    "email": "lennart@torch.sh"
+  },
+  "bin": {
+    "cli-dashboard": "cli-dashboard.js",
+    "tailgl": "tailgl.js"
+  },
+  "bugs": {
+    "url": "https://github.com/jeffjarchow/cli-dashboard/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "ansi": "^0.3.1",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.5.5",
+    "bluebird": "^3.4.6",
+    "inquirer": "^1.2.2",
+    "js-yaml": "^3.2.5",
+    "moment": "^2.9.0",
+    "request": "^2.76.0",
+    "yargs": "^6.3.0"
+  },
+  "deprecated": false,
+  "description": "CLI dashboard for Graylog because ain't nobody got time for browser windows.",
+  "devDependencies": {
+    "eslint": "^3.9.0",
+    "semver": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=6.0"
+  },
+  "homepage": "http://www.graylog.org/",
+  "licenses": [
+    {
+      "type": "GPLv3",
+      "url": "https://github.com/Graylog2/cli-dashboard/blob/master/COPYING"
+    }
+  ],
+  "name": "cli-dashboard",
+  "preferGlobal": "true",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Graylog2/cli-dashboard.git"
+  },
+  "version": "1.1.1"
+}
