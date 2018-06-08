@@ -16,12 +16,12 @@ by [Yaron Naveh](https://twitter.com/YaronNaveh). Great job on that!
 Install the dashboard: (You'll have to have [node.js](http://nodejs.org/download/) > 6.0 installed.
 Protip: It's in [homebrew](http://brew.sh) if you are on OSX.)
 
-    $ npm install graylog-cli-dashboard -g
+    $ npm install cli-dashboard -g
 
 View the options:
 
-    $ graylog-dashboard --help
-    Usage: graylog-dashboard.js <command> [options]
+    $ cli-dashboard --help
+    Usage: cli-dashboard.js <command> [options]
 
     Rest API Options:
       --server-url    (Deprecated; use api-host, path, port) Full Graylog API URL
@@ -42,7 +42,7 @@ View the options:
 
 Full example:
 
-    $ graylog-dashboard --stream-title "Production Webservers" --api-host graylog.example.org
+    $ cli-dashboard --stream-title "Production Webservers" --api-host graylog.example.org
 
 Make sure to run this with a recent version (>= 4) of node.js.
 
@@ -63,14 +63,14 @@ If you do not provide this file, and do not provide required data via command op
 
 Choose one from the list on the right side of the screen, or specify a `--stream-title` in the command.
 
-#### If the graylog-dashboard executable cannot be found
+#### If the cli-dashboard executable cannot be found
 
-You must have the `graylog-dashboard` executable that gets installed by NPM in your `PATH`. This is usually the case after installing
+You must have the `cli-dashboard` executable that gets installed by NPM in your `PATH`. This is usually the case after installing
 NPM in the first place but the output of `npm install` should show you where it was installed if you cannot find it:
 
-    /usr/local/share/npm/bin/graylog-dashboard -> /usr/local/share/npm/lib/node_modules/graylog-cli-dashboard/graylog-dashboard.js
-    # In this OSX example graylog-dashboard has been linked to the graylog-dashboard.js file in /usr/local/share/npm/...
-    # Execute /usr/local/share/npm/bin/graylog-dashboard to try it out
+    /usr/local/share/npm/bin/cli-dashboard -> /usr/local/share/npm/lib/node_modules/cli-dashboard/cli-dashboard.js
+    # In this OSX example cli-dashboard has been linked to the cli-dashboard.js file in /usr/local/share/npm/...
+    # Execute /usr/local/share/npm/bin/cli-dashboard to try it out
 
 ### The Dashboard in the Wild
 
